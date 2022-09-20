@@ -17,4 +17,8 @@
 <resources>
     <!-- Whether to show a preference item for mobile plan -->
     <bool name="config_show_mobile_plan">false</bool>
+   
+    <!-- Reverse charging -->
+    <bool name="config_show_reverse_charging">true</bool>
+ 
 </resources>

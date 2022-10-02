@@ -26,6 +26,8 @@ TARGET_SOC_NAME := google
 
 USES_DEVICE_GOOGLE_GS101 := true
 
+DEVICE_PACKAGE_OVERLAYS += device/google/gs101/overlay-crooked
+
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a
 TARGET_CPU_ABI := arm64-v8a
